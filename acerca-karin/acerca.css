@@ -1,0 +1,191 @@
+/* *** NORMALIZACION *** */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: "Rosario", sans-serif;
+    color: #2b2b2b;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #2b2b2b;
+  }
+  
+  body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    width: 100%;
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  
+  .seccion-nombre {
+    /* border: green solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+  }
+  
+  .nombre {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: center;
+    font-family: "Rouge Script", cursive;
+    font-size: 6rem;
+    color: #a37c87;
+    /* background-color: aqua; */
+  }
+  
+  .logo {
+    max-width: 6rem;
+    /* background-color: red; */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    background-color: #ffc4d6;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 4rem;
+    margin-bottom: 0;
+  }
+  
+  ul#navbar-menu li a {
+    color: #ffff;
+    font-size: 2rem;
+  }
+  
+  .contenido-principal {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    /* border: #2b2b2b solid; */
+    align-items: center;
+  }
+  
+  .seccion-bienvenida {
+    display: flex;
+    /* border: red solid; */
+    align-self: flex-start;
+  }
+  
+  .titulo-bienvenida {
+    font-family: "Rouge Script", cursive;
+    font-size: 4rem;
+    color: #a37c87;
+  }
+  
+  .palabras-bienvenida,
+  .nombre-producto {
+    font-size: 2.4rem;
+  }
+  
+  .listado-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding: 10rem;
+    padding-top: 0;
+    padding-bottom: 0rem;
+    justify-content: space-around;
+    /* border: red solid; */
+  }
+  
+  .contenedor-producto {
+    display: flexbox;
+    margin: 3rem;
+    margin-bottom: 0;
+    /* border: red solid; */
+  }
+  
+  .contenedor-imagen {
+    width: 224px;
+    height: 204px;
+    margin-bottom: 2rem;
+  }
+  
+  .contenedor-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: baseline;
+    background: #ffc4d6;
+    padding: 1.5rem;
+    font-size: 2rem;
+  
+    justify-content: center;
+  }
+  
+  .redes-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+  
+  .nosotros-footer {
+    display: flex;
+    flex-direction: row;
+  
+    gap: 2rem;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+  }
+  .contenedor-principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contenedor-acerca {
+    width: 60%;
+    margin-top: 50px;
+    }
+  
+  .img-acerca {
+    width: 40%;
+    clip-path: circle(20% at 50% 40%);
+    margin-top:-160px;
+    margin-left:-50px;
+  }
+  
+  a {
+    color: orange;
+  }
+  
+  a:hover {
+    color:#2b2b2b;
+  }
+  
+  a:visited{
+    color: red;
+  }
+  
+  a:link {
+    color:#000;
+  }
