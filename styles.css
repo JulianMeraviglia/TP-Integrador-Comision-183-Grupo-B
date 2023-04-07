@@ -138,6 +138,12 @@ ul#navbar-menu li a {
   height: 204px;
   margin-bottom: 2rem;
   border-radius: 1rem;
+  transition: all 300ms;
+}
+
+.contenedor-imagen:hover{
+  width: 246px;
+  height: 224px;
 }
 
 .contenedor-footer {

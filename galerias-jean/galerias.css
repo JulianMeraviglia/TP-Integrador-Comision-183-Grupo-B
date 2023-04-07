@@ -1,0 +1,27 @@
+.contenedor-full-galerias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+
+.titulo-galeria{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.contenedor-imagenes-galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+.imagen-galeria{
+    width: 250px;
+    height: 250px;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
