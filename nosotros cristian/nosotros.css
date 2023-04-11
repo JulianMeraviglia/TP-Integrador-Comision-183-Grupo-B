@@ -1,9 +1,8 @@
-.contenedor-nosotros{
+.contenedor-nosotros {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80vw;
-  background-color: aqua;
 }
 .titulo-nosotros {
   display: flex;
@@ -11,16 +10,23 @@
 }
 .contenedor-tarjetas {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60vw;
+  justify-content: space-evenly;
 }
 .tarjeta {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 3rem;
 }
 .imagen-nosotros {
   width: 250px;
   height: 250px;
+  border-radius: 1rem;
 }
 .nombreapellido-nosotros {
+  padding-top: 0.4rem;
   font-size: 2rem;
 }
