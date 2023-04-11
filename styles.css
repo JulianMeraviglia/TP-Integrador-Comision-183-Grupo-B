@@ -138,13 +138,16 @@ ul#navbar-menu li a {
   height: 204px;
   margin-bottom: 2rem;
   border-radius: 1rem;
+}
+.contenedor-producto {
   transition: all 1000ms;
 }
 
-.contenedor-imagen:hover{
-  width: 246px;
-  height: 224px;
+.contenedor-producto:hover {
+  color: #ffc4d6;
 }
+
+
 
 .contenedor-footer {
   display: flex;
