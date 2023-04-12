@@ -77,6 +77,11 @@ ul#navbar-menu li a {
   font-size: 2rem;
 }
 
+ul#navbar-menu li a:hover {
+  color: #A37C87;
+  font-size: 2rem;
+}
+
 .contenido-principal {
   display: flex;
   flex-direction: column;
@@ -173,4 +178,9 @@ ul#navbar-menu li a {
   flex-direction: row;
 
   gap: 2rem;
+}
+
+.sinActivar {
+  color: #A37C87;
+  font-size: 2rem;
 }
