@@ -1,0 +1,19 @@
+.seccion-mapa {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: red solid; */
+    /* align-self: flex-start; */
+    justify-content: space-between;
+    width: 80vw;
+  }
+  .mapa {
+    display: flex;
+    padding: 5rem;
+    border-radius: 7rem;
+  }
+  .direccion {
+    display: flex;
+    width: 60vw;
+    font-size: 2rem;
+  }
+  
