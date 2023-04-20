@@ -30,3 +30,20 @@
   padding-top: 0.4rem;
   font-size: 2rem;
 }
+/* **** Medias *** */
+@media screen and (min-width: 768px) {
+  .contenedor-nosotros {
+    width: 100vw;
+  }
+  .contenedor-tarjetas {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contenedor-nosotros {
+    width: 80vw;
+  }
+  .contenedor-tarjetas {
+    width: 80%;
+  }
+}

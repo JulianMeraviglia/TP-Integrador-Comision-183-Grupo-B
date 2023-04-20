@@ -1,19 +1,39 @@
+.contacto-contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
 .seccion-mapa {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: red solid; */
-    /* align-self: flex-start; */
-    justify-content: space-between;
-    width: 80vw;
-  }
-  .mapa {
-    display: flex;
-    padding: 5rem;
-    border-radius: 7rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* border: red solid; */
+  /* align-self: flex-start; */
+  /* justify-content: space-between;
+  width: 80vw; */
+}
+.mapa {
+  border-radius: 1rem;
+}
+.cantacto-Txt-bot {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  align-items: flex-end;
+}
+.direccion {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+
+/* **** Medias *** */
+@media screen and (min-width: 768px) {
+  .cantacto-Txt-bot {
+    margin-top: 5rem;
+    justify-content: space-evenly;
   }
   .direccion {
-    display: flex;
-    width: 60vw;
     font-size: 2rem;
+    line-height: 3rem;
   }
-  
+}

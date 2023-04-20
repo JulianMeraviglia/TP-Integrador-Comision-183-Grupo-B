@@ -27,6 +27,7 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: space-between;
+  /* border: solid green; */
 }
 
 .navbar {
@@ -44,14 +45,16 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  padding: 1rem;
+  /* border: solid red; */
 }
 
 .nombre {
   display: flex;
-  flex-basis: 80%;
+  flex-basis: 50%;
   justify-content: center;
   font-family: "Rouge Script", cursive;
-  font-size: 6rem;
+  font-size: 4rem;
   color: #a37c87;
   /* background-color: aqua; */
 }
@@ -63,13 +66,15 @@ body {
 
 .navbar-menu {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  gap: 6rem;
+  gap: 2rem;
   background-color: #ffc4d6;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  padding-left: 4rem;
+  /* padding-left: 4rem; */
   margin-bottom: 0;
+  align-items: center;
 }
 
 ul#navbar-menu li a {
@@ -78,7 +83,7 @@ ul#navbar-menu li a {
 }
 
 ul#navbar-menu li a:hover {
-  color: #A37C87;
+  color: #a37c87;
   font-size: 2rem;
 }
 
@@ -114,7 +119,7 @@ ul#navbar-menu li a:hover {
   display: flex;
 }
 .imagen-whatsaap {
-  position: fixed;
+  /* position: fixed; */
   width: 6rem;
   height: auto;
 }
@@ -123,8 +128,8 @@ ul#navbar-menu li a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 70vw;
-  padding: 10rem;
+  width: 80vw;
+  /* padding: 10rem; */
   padding-top: 0;
   padding-bottom: 0rem;
   justify-content: space-around;
@@ -151,8 +156,6 @@ ul#navbar-menu li a:hover {
 .contenedor-producto:hover {
   color: #ffc4d6;
 }
-
-
 
 .contenedor-footer {
   display: flex;
@@ -181,6 +184,26 @@ ul#navbar-menu li a:hover {
 }
 
 .sinActivar {
-  color: #A37C87;
+  color: #a37c87;
   font-size: 2rem;
+}
+
+/* **** Medias *** */
+@media screen and (min-width: 768px) {
+  .navbar-menu {
+    flex-direction: row;
+    padding-left: 4rem;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navbar-menu {
+    flex-direction: row;
+    padding-left: 4rem;
+    justify-content: flex-start;
+  }
+  .listado-productos {
+    width: 60vw;
+    /* padding: 10rem; */
+  }
 }

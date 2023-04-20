@@ -4,7 +4,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   /* border: red solid; */
-  width: 90vw;
+  width: 100vw;
   align-items: center;
 }
 
@@ -15,10 +15,10 @@
   /* border: green solid; */
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   align-items: center;
-  width: 70%;
-  gap: 10rem;
+  width: 95%;
+  gap: 1rem;
 }
 .label-grupo-input {
   /* border: red solid; */
@@ -28,7 +28,7 @@
 .input-grupo-input {
   /* border: red solid; */
   width: 50%;
-  height: 3rem;
+  height: 2.5rem;
   font-size: 2rem;
   padding: 0.5rem;
   border-radius: 0.8rem;
@@ -41,52 +41,56 @@
   display: flex;
   flex-wrap: wrap;
   /* border: green solid; */
-  width: 55%;
-  margin-left: 12%;
+  width: 85%;
+  margin-left: 6%;
+
   justify-content: space-between;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 .producto-checkbox {
   display: flex;
   /* border: yellow solid; */
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .input-checbox {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 
   accent-color: green;
 }
 .label-checkbox {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .contenedor-porciones {
   display: flex;
   /* border: red solid; */
-  gap: 2rem;
+  gap: 1rem;
   /* align-items: center; */
 }
 .label-porciones {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .select-porciones,
 .input-cantidad {
   display: flex;
-  font-size: 2rem;
-  padding: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.2rem;
   background-color: #d9d9d9;
-  border-radius: 0.8rem;
+  border-radius: 0.4rem;
+}
+.input-cantidad {
+  margin-top: 5rem;
 }
 
 .contenedor-pisos {
   display: flex;
   flex-wrap: wrap;
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* border: yellow solid; */
-  margin-left: 49%;
+  /* margin-left: 20%; */
   gap: 5rem;
   margin-top: 5rem;
 }
@@ -103,7 +107,7 @@
   display: flex;
   flex-direction: column;
   /* border: red solid; */
-  width: 40vw;
+  width: 90vw;
 }
 .label-mensaje {
   font-size: 2rem;
@@ -117,8 +121,8 @@
 }
 .boton-presupuesto,
 .boton-volver {
-  width: 15rem;
-  margin-left: 40%;
+  width: 90vw;
+  margin: 0 auto;
   height: 5rem;
   font-size: 2rem;
   background-color: #ffc4d6;
@@ -133,7 +137,7 @@
 
 /* *** Resumen *** */
 
-form {
+.step-2 {
   margin-bottom: 20px;
 }
 
@@ -148,10 +152,188 @@ form {
 #summary {
   display: flex;
   flex-wrap: wrap;
-  width: 50vw;
+  width: 90vw;
   border: 1px solid #ffc4d6;
   border-radius: 2rem;
-  padding: 4rem;
-  font-size: 2rem;
-  line-height: 2;
+  padding: 1rem;
+  font-size: 1.7rem;
+  line-height: 1.8;
+}
+/* **** Medias *** */
+@media screen and (min-width: 768px) {
+  #formularioPresupuesto {
+    width: 80vw;
+  }
+  .contenedor-pisos {
+    margin-left: 20%;
+  }
+  .contenedor-mensaje {
+    width: 70%;
+  }
+
+  .boton-presupuesto,
+  .boton-volver {
+    width: 50%;
+  }
+}
+
+/* **** Medias *** */
+@media screen and (min-width: 1440px) {
+  /* *** ESTILOS DE PRESUPUESTO*** */
+  #formularioPresupuesto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: red solid; */
+    width: 90vw;
+    align-items: center;
+  }
+
+  .grupo-input,
+  .titulo-checkbox {
+    display: flex;
+    flex-direction: row;
+    /* border: green solid; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    align-items: center;
+    width: 70%;
+    gap: 10rem;
+  }
+  .label-grupo-input {
+    /* border: red solid; */
+    width: 10rem;
+  }
+
+  .input-grupo-input {
+    /* border: red solid; */
+    width: 50%;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+
+    background-color: #d9d9d9;
+    /* border: none; */
+  }
+
+  .contenedor-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: green solid; */
+    width: 55%;
+    margin-left: 12%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .producto-checkbox {
+    display: flex;
+    /* border: yellow solid; */
+    align-items: center;
+    gap: 2rem;
+  }
+  .input-checbox {
+    width: 2rem;
+    height: 2rem;
+
+    accent-color: green;
+  }
+  .label-checkbox {
+    font-size: 2rem;
+  }
+
+  .contenedor-porciones {
+    display: flex;
+    /* border: red solid; */
+    gap: 2rem;
+    /* align-items: center; */
+  }
+  .label-porciones {
+    font-size: 2rem;
+  }
+  .select-porciones,
+  .input-cantidad {
+    display: flex;
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: #d9d9d9;
+    border-radius: 0.8rem;
+  }
+
+  .contenedor-pisos {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    /* border: yellow solid; */
+    margin-left: 49%;
+    gap: 5rem;
+    margin-top: 5rem;
+  }
+  .pisos-radio {
+    display: flex;
+    flex-direction: column;
+  }
+  .label-pisos {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .contenedor-mensaje {
+    display: flex;
+    flex-direction: column;
+    /* border: red solid; */
+    width: 40vw;
+  }
+  .label-mensaje {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .text-mensaje {
+    font-size: 2rem;
+    background-color: #d9d9d9;
+    border-radius: 0.8rem;
+  }
+  .boton-presupuesto,
+  .boton-volver {
+    width: 15rem;
+    margin-left: 40%;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: #ffc4d6;
+    color: #ffff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+  }
+  .boton-volver-link {
+    color: #ffff;
+  }
+
+  /* *** Resumen *** */
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  #step-2 {
+    display: none;
+  }
+  .resumen-text {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #summary {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    border: 1px solid #ffc4d6;
+    border-radius: 2rem;
+    padding: 4rem;
+    font-size: 2rem;
+    line-height: 2;
+  }
 }
